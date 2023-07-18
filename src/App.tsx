@@ -1,26 +1,21 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import AcronymList from './components/acronym-list/acronym-list';
+import PageNotFound from './components/common/page-not-found';
+import About from './components/common/abount';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path='/' Component={AcronymList}></Route>
+                <Route path='/about' Component={About}></Route>
+                <Route path='*' Component={PageNotFound}></Route>
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
 export default App;

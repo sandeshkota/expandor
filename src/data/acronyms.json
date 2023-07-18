@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "shortForm": "ASAP",
+        "fullForm": "As Soon As Possible",
+        "description": "Used generally to indicate the urgency"
+    },
+    {
+        "id": "2",
+        "shortForm": "TTYL",
+        "fullForm": "Talk To You Later",
+        "description": "Indicating a close of coversation"
+    },
+    {
+        "id": "3",
+        "shortForm": "RSVP",
+        "fullForm": "Répondez s'il vous plaît",
+        "description": "Indicates to book or confirm your availability"
+    }
+]
