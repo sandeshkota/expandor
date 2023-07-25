@@ -1,19 +1,37 @@
 [
     {
-        "id": "1",
+        "id": "00283921-7460-4f76-bd55-f5fb708dfabb",
         "shortForm": "ASAP",
         "fullForm": "As Soon As Possible",
         "description": "Used generally to indicate the urgency"
     },
     {
-        "id": "2",
+        "id": "c9dc24aa-0c0d-4277-bfa1-eeb2e3bf29a6",
         "shortForm": "TTYL",
         "fullForm": "Talk To You Later",
         "description": "Indicating a close of coversation"
     },
     {
-        "id": "3",
+        "id": "0a6b5dd4-088a-436e-a30a-faecead76d03",
         "shortForm": "RSVP",
+        "fullForm": "Répondez s'il vous plaît",
+        "description": "Indicates to book or confirm your availability"
+    },
+    {
+        "id": "0a6b5dd4-088a-436e-a30a-faecead76d04",
+        "shortForm": "RSVP1",
+        "fullForm": "Répondez s'il vous plaît",
+        "description": "Indicates to book or confirm your availability"
+    },
+    {
+        "id": "0a6b5dd4-088a-436e-a30a-faecead76d05",
+        "shortForm": "RSVP2",
+        "fullForm": "Répondez s'il vous plaît",
+        "description": "Indicates to book or confirm your availability"
+    },
+    {
+        "id": "0a6b5dd4-088a-436e-a30a-faecead76d06",
+        "shortForm": "RSVP3",
         "fullForm": "Répondez s'il vous plaît",
         "description": "Indicates to book or confirm your availability"
     }

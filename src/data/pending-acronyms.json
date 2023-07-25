@@ -1,0 +1,20 @@
+[
+    {
+        "id": "2695447a-bf15-42ee-9dec-8270ef9b5f34",
+        "shortForm": "IPO",
+        "fullForm": "Initial public Offering",
+        "description": "Deals with stock exchange where a stock of a company is available for general public"
+    },
+    {
+        "id": "1e4069d9-364c-4e83-bc83-b958ce7254c6",
+        "shortForm": "PF",
+        "fullForm": "Provident Fund",
+        "description": "PF account"
+    },
+    {
+        "id": "6d533037-4e7e-48e9-b6cb-cd22f3f3de45",
+        "shortForm": "PPF",
+        "fullForm": "Public Provident Fund",
+        "description": "PPF account"
+    }
+]
