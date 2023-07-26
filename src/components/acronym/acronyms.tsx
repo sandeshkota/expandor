@@ -1,4 +1,3 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import AcronymList from "./list/acronym-list";
 import { IAcronym } from '../../models/acronym';
 import { useEffect, useState } from 'react';
@@ -9,7 +8,6 @@ import AddAcronym from './add/add-acronym';
 
 export default function Acronyms() {
     const [acronyms, setAcronyms] = useState<IAcronym[]>([{ id: '', shortForm: '', fullForm: '', description: ''}]);
-    const [filteredAcronyms, setFilteredAcronyms] = useState<IAcronym[]>();
     const [searchText, setSearchText] = useState<string>('');
 
     useEffect(() => {
