@@ -18,7 +18,8 @@ export default function Acronyms() {
     let fa = acronyms.slice();
     if(searchText !== '')
     {
-        fa = fa?.filter(a => a.shortForm.startsWith(searchText));
+        fa = fa?.filter(a => a.shortForm.startsWith(searchText))
+        .sort((a,b) => (a.shortForm > b.shortForm) ? 1 : ((b.shortForm > a.shortForm) ? -1 : 0))
     }
 
     function SubmitAcronym(acronymToAdd: any) {
@@ -28,7 +29,6 @@ export default function Acronyms() {
 
     return (
         <>
-            <br/><br/>
             <Grid container spacing={2}>
                 <Grid item xs={2}>
                 </Grid>
@@ -41,7 +41,6 @@ export default function Acronyms() {
                     <AddAcronym SubmitAcronym={SubmitAcronym} />
                 </Grid>
             </Grid>
-           
         </>
     )
 }
